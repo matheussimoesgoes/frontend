@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./src/main.js" type="module" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Validador de Campos</h1>
+    <form class="formulario">
+        <input type="text" id="texto" value="Insira o texto">
+        <select id="dados" name="dados">
+            <option value="nome">Nome</option>
+            <option value="cpf">CPF</option>
+            <option value="rg">RG</option>
+            <option value="email">Email</option>
+            <option value="telefone">Telefone</option>
+        </select>
+        <button id="validar">Validar</button>
+    </form>
+    <p id="saida">Digite o texto escolha a opção e clique no botao validar. Deve retornar true ou false.</p>
+</body>
+</html>
